@@ -1,0 +1,25 @@
+{
+  "name": "stripe-app",
+  "version": "1.0.0",
+  "description": "Node.js/Express app using Stripe API",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/markosrb89/node-stripe-app.git"
+  },
+  "author": "Marko Krtolica",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/markosrb89/node-stripe-app/issues"
+  },
+  "homepage": "https://github.com/markosrb89/node-stripe-app#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "express-handlebars": "^3.0.0",
+    "stripe": "^5.1.1"
+  }
+}
